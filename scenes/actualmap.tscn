@@ -142,6 +142,10 @@ background_mode = 2
 sky = SubResource("Sky_pftmj")
 glow_enabled = true
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7w8fq"]
+transparency = 1
+albedo_color = Color(1, 1, 1, 0)
+
 [node name="World" type="Node3D" unique_id=1661216887]
 
 [node name="Map" type="Node3D" parent="." unique_id=1523488221]
@@ -157,6 +161,30 @@ environment = SubResource("Environment_imuwt")
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map" unique_id=719483527]
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
 shadow_enabled = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Map" unique_id=2083457398]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -49.49589, 3.20947, -2.663311)
+use_collision = true
+size = Vector3(1, 5.4014893, 105.66496)
+material = SubResource("StandardMaterial3D_7w8fq")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="Map" unique_id=371529335]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.50411, 3.20947, -2.663311)
+use_collision = true
+size = Vector3(1, 5.4014893, 105.66496)
+material = SubResource("StandardMaterial3D_7w8fq")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Map" unique_id=1026429684]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.49589157, 3.20947, -49.312897)
+use_collision = true
+size = Vector3(1, 5.4014893, 105.66496)
+material = SubResource("StandardMaterial3D_7w8fq")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="Map" unique_id=339185939]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.49588734, 3.20947, 49.554073)
+use_collision = true
+size = Vector3(1, 5.4014893, 105.66496)
+material = SubResource("StandardMaterial3D_7w8fq")
 
 [node name="Player3D" parent="." unique_id=1875688921 instance=ExtResource("2_7w8fq")]
 transform = Transform3D(-0.669529, 0, -0.7427859, 0, 1, 0, 0.7427859, 0, -0.669529, 22.304081, 3.032268, 37.433784)
