@@ -45,4 +45,25 @@ theme_override_font_sizes/font_size = 40
 theme_override_styles/normal = SubResource("StyleBoxFlat_ojjp1")
 text = "PRESS TO SPIN WHEEL"
 
+[node name="Label" type="Label" parent="." unique_id=1794165944]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 90.0
+offset_right = 534.0
+offset_bottom = 183.0
+offset_transform_enabled = true
+theme_override_font_sizes/font_size = 45
+text = "spin the wheel!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="." unique_id=1133883576]
+wait_time = 2.0
+one_shot = true
+
+[node name="labeltime" type="Timer" parent="." unique_id=857736403]
+wait_time = 0.05
+
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="labeltime" to="." method="_on_label_timeout"]

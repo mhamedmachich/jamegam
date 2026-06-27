@@ -2,8 +2,8 @@ extends CharacterBody3D
 
 
 @export_group("Movement")
-@export var move_speed := 8.0
-@export var acceleration := 20.0
+@export var move_speed = Global.sped
+@export var acceleration = Global.acc
 @export var rotation_speed := 12.0
 @export var jump_impulse := 12.0
 
@@ -14,7 +14,7 @@ extends CharacterBody3D
 
 var _camera_input_direction := Vector2.ZERO
 var _last_movement_direction := Vector3.BACK
-var _gravity := -30.0
+var _gravity = Global.grav
 
 @onready var _camera_pivot: Node3D = %CameraPivot
 @onready var _camera: Camera3D = %Camera3D
@@ -65,3 +65,9 @@ func _physics_process(delta: float) -> void:
 	if move_direction.length() > 0.2:
 		_last_movement_direction = move_direction
 	var target_angle := Vector3.BACK.signed_angle_to(_last_movement_direction, Vector3.UP)
+	move_speed = Global.sped
+	acceleration = Global.acc
+	if _gravity<0:
+		_gravity = Global.grav
+	else:
+		_gravity=-30
