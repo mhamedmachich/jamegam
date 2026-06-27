@@ -1389,6 +1389,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.663713, 12.706401, -1.415
 [node name="D6-Marble5" parent="Map/dice" unique_id=1507117993 instance=ExtResource("4_imuwt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.923817, 12.706401, -1.4155307)
 
+[node name="D6-Marble12" parent="Map/dice" unique_id=109112516 instance=ExtResource("4_imuwt")]
+transform = Transform3D(0.8023224, -0.5968909, 0, 0.4102185, 0.55140305, -0.7264127, 0.43358916, 0.5828172, 0.6872587, -1.665101, 19.92176, 28.437641)
+
 [node name="D6-Marble6" parent="Map/dice" unique_id=310050973 instance=ExtResource("4_imuwt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.421097, 12.706401, -1.4155307)
 
@@ -1407,9 +1410,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.493515, 12.706401, -1.415
 [node name="D6-Marble11" parent="Map/dice" unique_id=1894357331 instance=ExtResource("4_imuwt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51.05451, 12.706401, -1.4155307)
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="Map" unique_id=1975653583]
-environment = SubResource("Environment_imuwt")
-
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map" unique_id=719483527]
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
 shadow_enabled = true
@@ -1419,158 +1419,164 @@ shadow_enabled = true
 [node name="Player3D" parent="." unique_id=1875688921 instance=ExtResource("2_7w8fq")]
 transform = Transform3D(-0.669529, 0, -0.7427859, 0, 1, 0, 0.7427859, 0, -0.669529, 2.2102504, 21.386782, 20.373177)
 
-[node name="Ace of Clubs" parent="." unique_id=1733401655 instance=ExtResource("7_2v8qd")]
+[node name="Ace of Clubs" parent="Map/cards" unique_id=1733401655 instance=ExtResource("7_2v8qd")]
 transform = Transform3D(0.011661038, -0.029795881, -0.00028225826, 0.0039712135, 0.0010478692, 0.018842854, -0.029533878, -0.011623582, 0.0024222238, 0.9502287, 20.707819, 19.550781)
 
-[node name="Ace of Diamonds" parent="." unique_id=1609709180 instance=ExtResource("8_knwb3")]
+[node name="Ace of Diamonds" parent="Map/cards" unique_id=1609709180 instance=ExtResource("8_knwb3")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -296.1191, 864.95935, -78.675385)
 
-[node name="Ace of Hearts" parent="." unique_id=1855574683 instance=ExtResource("9_t3ejt")]
+[node name="Ace of Hearts" parent="Map/cards" unique_id=1855574683 instance=ExtResource("9_t3ejt")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -296.1191, 970.1909, -78.675385)
 
-[node name="Ace of Spades" parent="." unique_id=1341229349 instance=ExtResource("10_3liid")]
+[node name="Ace of Spades" parent="Map/cards" unique_id=1341229349 instance=ExtResource("10_3liid")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -296.1191, 1075.4225, -78.675385)
 
-[node name="Eigh of Hearts" parent="." unique_id=1349052558 instance=ExtResource("11_v03od")]
-transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 129.07645, 970.1909, -78.675385)
+[node name="Eigh of Hearts" parent="Map/cards" unique_id=1349052558 instance=ExtResource("11_v03od")]
+transform = Transform3D(0.031062707, -0.0074110003, -0.0012147139, -0.0005702797, -0.010712799, 0.017900461, -0.007667016, -0.029228637, -0.006252834, -2.057086, 21.217688, 34.51038)
 
-[node name="Eight of Clubs" parent="." unique_id=345393418 instance=ExtResource("12_benye")]
+[node name="Eight of Clubs" parent="Map/cards" unique_id=345393418 instance=ExtResource("12_benye")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 129.07645, 759.7278, -78.675385)
 
-[node name="Eight of Diamonds" parent="." unique_id=149613397 instance=ExtResource("13_1f0kg")]
+[node name="Eight of Diamonds" parent="Map/cards" unique_id=149613397 instance=ExtResource("13_1f0kg")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 129.07645, 864.95935, -78.675385)
 
-[node name="Eight of Spades" parent="." unique_id=883112711 instance=ExtResource("14_exrpu")]
+[node name="Eight of Spades" parent="Map/cards" unique_id=883112711 instance=ExtResource("14_exrpu")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 129.07645, 1075.4225, -78.675385)
 
-[node name="Five of Clubs" parent="." unique_id=992385003 instance=ExtResource("15_joewf")]
+[node name="Five of Clubs" parent="Map/cards" unique_id=992385003 instance=ExtResource("15_joewf")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -53.150215, 759.7278, -78.675385)
 
-[node name="Five of Diamonds" parent="." unique_id=946290067 instance=ExtResource("16_uw7se")]
+[node name="Five of Diamonds" parent="Map/cards" unique_id=946290067 instance=ExtResource("16_uw7se")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -53.150215, 864.95935, -78.675385)
 
-[node name="Five of Hearts" parent="." unique_id=599474121 instance=ExtResource("17_23bnk")]
+[node name="Five of Hearts" parent="Map/cards" unique_id=599474121 instance=ExtResource("17_23bnk")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -53.150215, 970.1909, -78.675385)
 
-[node name="Five of Spades" parent="." unique_id=543717895 instance=ExtResource("18_rlonk")]
+[node name="Five of Spades" parent="Map/cards" unique_id=543717895 instance=ExtResource("18_rlonk")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -53.150215, 1075.4225, -78.675385)
 
-[node name="Four of Clubs" parent="." unique_id=1464243901 instance=ExtResource("19_3ier3")]
+[node name="Four of Clubs" parent="Map/cards" unique_id=1464243901 instance=ExtResource("19_3ier3")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -113.89243, 759.7278, -78.675385)
 
-[node name="Four of Diamonds" parent="." unique_id=563626149 instance=ExtResource("20_jx8bc")]
+[node name="Four of Diamonds" parent="Map/cards" unique_id=563626149 instance=ExtResource("20_jx8bc")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -113.89243, 864.95935, -78.675385)
 
-[node name="Four of Hearts" parent="." unique_id=984420396 instance=ExtResource("21_gsmlw")]
+[node name="Four of Hearts" parent="Map/cards" unique_id=984420396 instance=ExtResource("21_gsmlw")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -113.89243, 970.1909, -78.675385)
 
-[node name="Four of Spades" parent="." unique_id=2059284131 instance=ExtResource("22_jenjg")]
+[node name="Four of Spades" parent="Map/cards" unique_id=2059284131 instance=ExtResource("22_jenjg")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -113.89243, 1075.4225, -78.675385)
 
-[node name="Jack of Clubs" parent="." unique_id=183519449 instance=ExtResource("23_leybv")]
+[node name="Jack of Clubs" parent="Map/cards" unique_id=183519449 instance=ExtResource("23_leybv")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 311.3031, 759.7278, -78.675385)
 
-[node name="Jack of Diamonds" parent="." unique_id=1003862298 instance=ExtResource("24_6854t")]
+[node name="Jack of Diamonds" parent="Map/cards" unique_id=1003862298 instance=ExtResource("24_6854t")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 311.3031, 864.95935, -78.675385)
 
-[node name="Jack of Hearts" parent="." unique_id=441968733 instance=ExtResource("25_73osj")]
+[node name="Jack of Hearts" parent="Map/cards" unique_id=441968733 instance=ExtResource("25_73osj")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 311.3031, 970.1909, -78.675385)
 
-[node name="Jack of Spades" parent="." unique_id=1320700334 instance=ExtResource("26_kt80d")]
+[node name="Jack of Spades" parent="Map/cards" unique_id=1320700334 instance=ExtResource("26_kt80d")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 311.3031, 1075.4225, -78.675385)
 
-[node name="King of Clubs" parent="." unique_id=265728740 instance=ExtResource("27_stkty")]
+[node name="King of Clubs" parent="Map/cards" unique_id=265728740 instance=ExtResource("27_stkty")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 432.78754, 759.7278, -78.675385)
 
-[node name="King of Diamonds" parent="." unique_id=2138044157 instance=ExtResource("28_l2x37")]
+[node name="King of Diamonds" parent="Map/cards" unique_id=2138044157 instance=ExtResource("28_l2x37")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 432.78754, 864.95935, -78.675385)
 
-[node name="King of Hearts" parent="." unique_id=1672721015 instance=ExtResource("29_qsaqs")]
+[node name="King of Hearts" parent="Map/cards" unique_id=1672721015 instance=ExtResource("29_qsaqs")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 432.78754, 970.1909, -78.675385)
 
-[node name="King of Spades" parent="." unique_id=1665153136 instance=ExtResource("30_xuh1l")]
+[node name="King of Spades" parent="Map/cards" unique_id=1665153136 instance=ExtResource("30_xuh1l")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 432.78754, 1075.4225, -78.675385)
 
-[node name="Nine of Clubs" parent="." unique_id=155141217 instance=ExtResource("31_dt0uw")]
+[node name="Nine of Clubs" parent="Map/cards" unique_id=155141217 instance=ExtResource("31_dt0uw")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 189.81866, 759.7278, -78.675385)
 
-[node name="Nine of Diamonds" parent="." unique_id=1688644563 instance=ExtResource("32_l7ug0")]
+[node name="Nine of Diamonds" parent="Map/cards" unique_id=1688644563 instance=ExtResource("32_l7ug0")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 189.81866, 864.95935, -78.675385)
 
-[node name="Nine of Hearts" parent="." unique_id=467342093 instance=ExtResource("33_tslg1")]
+[node name="Nine of Hearts" parent="Map/cards" unique_id=467342093 instance=ExtResource("33_tslg1")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 189.81866, 970.1909, -78.675385)
 
-[node name="Nine of Spades" parent="." unique_id=810959846 instance=ExtResource("34_majb5")]
+[node name="Nine of Spades" parent="Map/cards" unique_id=810959846 instance=ExtResource("34_majb5")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 189.81866, 1075.4225, -78.675385)
 
-[node name="Queen of Clubs" parent="." unique_id=1550092081 instance=ExtResource("35_nx50j")]
+[node name="Queen of Clubs" parent="Map/cards" unique_id=1550092081 instance=ExtResource("35_nx50j")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 372.0453, 759.7278, -78.675385)
 
-[node name="Queen of Diamonds" parent="." unique_id=451096430 instance=ExtResource("36_kbqco")]
+[node name="Queen of Diamonds" parent="Map/cards" unique_id=451096430 instance=ExtResource("36_kbqco")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 372.0453, 864.95935, -78.675385)
 
-[node name="Queen of Hearts" parent="." unique_id=652933519 instance=ExtResource("37_0nifm")]
+[node name="Queen of Hearts" parent="Map/cards" unique_id=652933519 instance=ExtResource("37_0nifm")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 372.0453, 970.1909, -78.675385)
 
-[node name="Queen of Spades" parent="." unique_id=670848156 instance=ExtResource("38_vy4bj")]
+[node name="Queen of Spades" parent="Map/cards" unique_id=670848156 instance=ExtResource("38_vy4bj")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 372.0453, 1075.4225, -78.675385)
 
-[node name="Seven of Clubs" parent="." unique_id=84010303 instance=ExtResource("39_01otj")]
+[node name="Seven of Clubs" parent="Map/cards" unique_id=84010303 instance=ExtResource("39_01otj")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 68.334236, 759.7278, -78.675385)
 
-[node name="Seven of Diamonds" parent="." unique_id=1299914617 instance=ExtResource("40_sk865")]
+[node name="Seven of Diamonds" parent="Map/cards" unique_id=1299914617 instance=ExtResource("40_sk865")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 68.334236, 864.95935, -78.675385)
 
-[node name="Seven of Hearts" parent="." unique_id=1217497874 instance=ExtResource("41_r3bma")]
+[node name="Seven of Hearts" parent="Map/cards" unique_id=1217497874 instance=ExtResource("41_r3bma")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 68.334236, 970.1909, -78.675385)
 
-[node name="Seven of Spades" parent="." unique_id=196593863 instance=ExtResource("42_3vw72")]
+[node name="Seven of Spades" parent="Map/cards" unique_id=196593863 instance=ExtResource("42_3vw72")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 68.334236, 1075.4225, -78.675385)
 
-[node name="Six of Clubs" parent="." unique_id=1852120655 instance=ExtResource("43_0l4x3")]
+[node name="Six of Clubs" parent="Map/cards" unique_id=1852120655 instance=ExtResource("43_0l4x3")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 7.592018, 759.7278, -78.675385)
 
-[node name="Six of Diamonds" parent="." unique_id=1700475193 instance=ExtResource("44_n1xjh")]
+[node name="Six of Diamonds" parent="Map/cards" unique_id=1700475193 instance=ExtResource("44_n1xjh")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 7.592018, 864.95935, -78.675385)
 
-[node name="Six of Hearts" parent="." unique_id=369576211 instance=ExtResource("45_4rk6i")]
+[node name="Six of Hearts" parent="Map/cards" unique_id=369576211 instance=ExtResource("45_4rk6i")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 7.592018, 970.1909, -78.675385)
 
-[node name="Ten of Clubs" parent="." unique_id=974072974 instance=ExtResource("46_c8atd")]
+[node name="Ten of Clubs" parent="Map/cards" unique_id=974072974 instance=ExtResource("46_c8atd")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 250.56085, 759.7278, -78.675385)
 
-[node name="Ten of Diamonds" parent="." unique_id=1813270150 instance=ExtResource("47_00mou")]
+[node name="Ten of Diamonds" parent="Map/cards" unique_id=1813270150 instance=ExtResource("47_00mou")]
 transform = Transform3D(0.03048708, -0.0075201285, 0.0036594332, -0.007924474, -0.007464462, 0.017866692, -0.0056339, -0.030194864, -0.0053282133, -0.63246465, 19.534613, 23.03598)
 
-[node name="Ten of Hearts" parent="." unique_id=1235892011 instance=ExtResource("48_xi6jt")]
+[node name="Ten of Hearts" parent="Map/cards" unique_id=1235892011 instance=ExtResource("48_xi6jt")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 250.56085, 970.1909, -78.675385)
 
-[node name="Ten of Spades" parent="." unique_id=1847716987 instance=ExtResource("49_k5thm")]
+[node name="Ten of Spades" parent="Map/cards" unique_id=1847716987 instance=ExtResource("49_k5thm")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 250.56085, 1075.4225, -78.675385)
 
-[node name="Three of Clubs" parent="." unique_id=1776296183 instance=ExtResource("50_j5wch")]
+[node name="Three of Clubs" parent="Map/cards" unique_id=1776296183 instance=ExtResource("50_j5wch")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -174.63464, 759.7278, -78.675385)
 
-[node name="Three of Diamonds" parent="." unique_id=1416314528 instance=ExtResource("51_mjijo")]
+[node name="Three of Diamonds" parent="Map/cards" unique_id=1416314528 instance=ExtResource("51_mjijo")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -174.63464, 864.95935, -78.675385)
 
-[node name="Three of Hearts" parent="." unique_id=779222852 instance=ExtResource("52_t8xxx")]
+[node name="Three of Hearts" parent="Map/cards" unique_id=779222852 instance=ExtResource("52_t8xxx")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -174.63464, 968.6394, -78.675385)
 
-[node name="Three of Spades" parent="." unique_id=1641448500 instance=ExtResource("53_dng13")]
+[node name="Three of Spades" parent="Map/cards" unique_id=1641448500 instance=ExtResource("53_dng13")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -174.63464, 1075.4225, -78.675385)
 
-[node name="Two of Clubs" parent="." unique_id=1980344471 instance=ExtResource("54_6d0oa")]
+[node name="Two of Clubs" parent="Map/cards" unique_id=1980344471 instance=ExtResource("54_6d0oa")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -235.37689, 759.7278, -78.675385)
 
-[node name="Two of Diamonds" parent="." unique_id=364250116 instance=ExtResource("55_hufh1")]
+[node name="Two of Diamonds" parent="Map/cards" unique_id=364250116 instance=ExtResource("55_hufh1")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -235.37689, 864.95935, -78.675385)
 
-[node name="Two of Hearts" parent="." unique_id=420686323 instance=ExtResource("56_ovgtk")]
+[node name="Two of Hearts" parent="Map/cards" unique_id=420686323 instance=ExtResource("56_ovgtk")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -235.37689, 970.1909, -78.675385)
 
-[node name="Two of Spades" parent="." unique_id=929165582 instance=ExtResource("57_spuov")]
+[node name="Two of Spades" parent="Map/cards" unique_id=929165582 instance=ExtResource("57_spuov")]
 transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -235.37689, 1075.4225, -78.675385)
 
-[node name="Six of Spades2" parent="." unique_id=775898057 instance=ExtResource("5_klxr8")]
+[node name="Six of Spades2" parent="Map/cards" unique_id=775898057 instance=ExtResource("5_klxr8")]
 transform = Transform3D(0.0042487946, -0.023145268, -0.0025511354, -0.011668847, -0.0062596607, 0.010358957, -0.023974694, -0.0010551296, -0.005493973, 1.1223078, 20.028946, 14.041165)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1975653583]
+environment = SubResource("Environment_imuwt")
+
+[node name="Player3D" parent="." unique_id=1875688921 instance=ExtResource("2_7w8fq")]
+transform = Transform3D(-0.669529, 0, -0.7427859, 0, 1, 0, 0.7427859, 0, -0.669529, 2.2102504, 21.386782, 20.373177)
