@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://my14647cp32t" path="res://scenes/animated_sprite_3d.gd" id="3_84vxb"]
 [ext_resource type="PackedScene" uid="uid://cvmtgdksk7ac8" path="res://scenes/map.tscn" id="3_pftmj"]
 [ext_resource type="PackedScene" uid="uid://dgd7mu21i3xkx" path="res://models/gltf/D6-Marble.gltf" id="4_imuwt"]
+[ext_resource type="PackedScene" uid="uid://c6vjkg54va77b" path="res://scenes/GUI.tscn" id="4_klxr8"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t8nj7"]
 albedo_texture = ExtResource("1_pftmj")
@@ -1342,6 +1343,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.22197, 11.26754, 3.8570557
 use_collision = true
 size = Vector3(41.32132, 1, 20.494385)
 material = SubResource("StandardMaterial3D_4m1cr")
+
+[node name="Control" parent="Map" unique_id=1248361491 instance=ExtResource("4_klxr8")]
 
 [node name="Player3D" parent="." unique_id=1875688921 instance=ExtResource("2_7w8fq")]
 transform = Transform3D(-0.669529, 0, -0.7427859, 0, 1, 0, 0.7427859, 0, -0.669529, 14.284552, 14.547602, 2.1506958)
