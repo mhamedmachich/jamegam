@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cvmtgdksk7ac8"]
+
+[ext_resource type="PackedScene" uid="uid://bkc8yuaktgxpo" path="res://assets/gameready_casino_scene/scene.gltf" id="1_wijl4"]
+
+[node name="Node3D" type="Node3D" unique_id=313047519]
+
+[node name="Sketchfab_Scene" parent="." unique_id=1570603661 instance=ExtResource("1_wijl4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 734.9153, 231.92456, 0)

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://brj3nj7juygfp"]
 
 [ext_resource type="Script" uid="uid://bn7dkew28sjps" path="res://player/player_3d.gd" id="1_a5lo2"]
-[ext_resource type="PackedScene" uid="uid://bh467evea1l68" path="res://male_casual/male_casual.fbx" id="1_nni6y"]
+[ext_resource type="PackedScene" uid="uid://bh467evea1l68" path="res://assets/male_casual/male_casual.fbx" id="1_nni6y"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ojjp1"]
 radius = 0.22998047
@@ -20,7 +20,7 @@ unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 0.809017, -0.58778524, 0, 0.58778524, 0.809017, 0, 0, 0)
 
 [node name="SpringArm3D" type="SpringArm3D" parent="CameraPivot" unique_id=1458355588]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, 0)
+transform = Transform3D(-1, 0, 1.509958e-07, 0, 1, 0, -1.509958e-07, 0, -1, 0, 0, 0)
 spring_length = 5.0
 
 [node name="Camera3D" type="Camera3D" parent="CameraPivot/SpringArm3D" unique_id=2131916431]
