@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://brj3nj7juygfp"]
 
 [ext_resource type="Script" uid="uid://bn7dkew28sjps" path="res://player/player_3d.gd" id="1_a5lo2"]
-[ext_resource type="PackedScene" uid="uid://bh467evea1l68" path="res://male_casual/male_casual.fbx" id="1_nni6y"]
+[ext_resource type="PackedScene" uid="uid://bh467evea1l68" path="res://assets/male_casual/male_casual.fbx" id="1_nni6y"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ojjp1"]
 radius = 0.22998047
