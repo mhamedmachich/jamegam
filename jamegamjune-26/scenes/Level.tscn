@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://b4pgaba08twdd"]
+
+[ext_resource type="Texture2D" uid="uid://dhnb0n5xihfo5" path="res://assets/Texture_12_Diffuse.png" id="1_k5jlv"]
+[ext_resource type="PackedScene" uid="uid://cef7lif61xm1a" path="res://assets/gameready_casino_scene/Eddex_DiceSet_V1/gltf/D6-Marble.gltf" id="2_6vs76"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_qhyq2"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_bexhn"]
+sky_material = SubResource("ProceduralSkyMaterial_qhyq2")
+
+[sub_resource type="Environment" id="Environment_t7iv1"]
+background_mode = 2
+sky = SubResource("Sky_bexhn")
+glow_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4m1cr"]
+albedo_texture = ExtResource("1_k5jlv")
+uv1_triplanar = true
+
+[node name="Wrold" type="Node3D" unique_id=186557952]
+
+[node name="Map" type="Node3D" parent="." unique_id=158330307]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map" unique_id=2029921649]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Map" unique_id=1519615360]
+environment = SubResource("Environment_t7iv1")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Map" unique_id=904843703]
+material_override = SubResource("StandardMaterial3D_4m1cr")
+size = Vector3(100, 0.2, 100)
+
+[node name="D6-Marble" parent="." unique_id=43442997 instance=ExtResource("2_6vs76")]
+transform = Transform3D(0.35510695, 0.49952623, 0.79017246, 0, 0.8452619, -0.5343523, -0.93482566, 0.18975222, 0.30015835, -4.256212, 3.0054054, 0.5411854)
