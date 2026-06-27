@@ -1,0 +1,161 @@
+[gd_scene format=3 uid="uid://bo4le7fe24nfd"]
+
+[ext_resource type="PackedScene" uid="uid://borub8hp4327e" path="res://assets/carddeck.gltf" id="1_l7v0k"]
+
+[node name="Sketchfab_Scene" unique_id=635450214 instance=ExtResource("1_l7v0k")]
+
+[node name="Ace of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="0" unique_id=1341229349]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -364.90186, 159.68657, 5.3865366)
+
+[node name="Two of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="1" unique_id=929165582]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -304.15964, 159.68657, 5.3865376)
+
+[node name="Three of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="2" unique_id=1641448500]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -243.4174, 159.68655, 5.386536)
+
+[node name="Four of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="3" unique_id=2059284131]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -182.67519, 159.68657, 5.386536)
+
+[node name="Five of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="4" unique_id=543717895]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -121.93297, 159.68657, 5.3865366)
+
+[node name="Six of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="5" unique_id=823176720]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -61.190735, 159.68657, 5.3865366)
+
+[node name="Seven of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="6" unique_id=196593863]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -0.44851685, 159.68657, 5.3865366)
+
+[node name="Eight of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="7" unique_id=883112711]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 60.2937, 159.68657, 5.3865366)
+
+[node name="Nine of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="8" unique_id=810959846]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 121.03592, 159.68657, 5.3865366)
+
+[node name="Ten of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="9" unique_id=1847716987]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 181.7781, 159.68657, 5.3865366)
+
+[node name="Jack of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="10" unique_id=1320700334]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 242.52036, 159.68657, 5.3865366)
+
+[node name="Queen of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="11" unique_id=670848156]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 303.26254, 159.68657, 5.3865366)
+
+[node name="King of Spades" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="12" unique_id=1665153136]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 364.0048, 159.68657, 5.3865366)
+
+[node name="Ace of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="13" unique_id=1855574683]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -364.90186, 54.454987, 5.3865356)
+
+[node name="Eigh of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="14" unique_id=1349052558]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 60.2937, 54.454987, 5.3865356)
+
+[node name="Five of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="15" unique_id=599474121]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -121.93297, 54.454987, 5.386536)
+
+[node name="Four of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="16" unique_id=984420396]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -182.67519, 54.454987, 5.386537)
+
+[node name="Jack of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="17" unique_id=441968733]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 242.52036, 54.454987, 5.386536)
+
+[node name="King of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="18" unique_id=1672721015]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 364.0048, 54.454987, 5.3865366)
+
+[node name="Nine of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="19" unique_id=467342093]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 121.03592, 54.454987, 5.3865366)
+
+[node name="Queen of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="20" unique_id=652933519]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 303.26254, 54.454987, 5.3865366)
+
+[node name="Seven of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="21" unique_id=1217497874]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -0.44851685, 54.454987, 5.3865366)
+
+[node name="Six of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="22" unique_id=369576211]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -61.190735, 54.454987, 5.3865366)
+
+[node name="Ten of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="23" unique_id=1235892011]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 181.7781, 54.454987, 5.3865366)
+
+[node name="Three of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="24" unique_id=779222852]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -243.4174, 52.903458, 5.386536)
+
+[node name="Two of Hearts" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="25" unique_id=420686323]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -304.15964, 54.45497, 5.3865366)
+
+[node name="Ace of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="26" unique_id=1609709180]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -364.90186, -50.776596, 5.3865356)
+
+[node name="Eight of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="27" unique_id=149613397]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 60.2937, -50.776596, 5.3865366)
+
+[node name="Five of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="28" unique_id=946290067]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -121.93297, -50.776596, 5.3865366)
+
+[node name="Four of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="29" unique_id=563626149]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -182.67519, -50.776596, 5.386536)
+
+[node name="Jack of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="30" unique_id=1003862298]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 242.52036, -50.776596, 5.3865366)
+
+[node name="King of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="31" unique_id=2138044157]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 364.0048, -50.776596, 5.3865366)
+
+[node name="Nine of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="32" unique_id=1688644563]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 121.03592, -50.776596, 5.3865366)
+
+[node name="Queen of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="33" unique_id=451096430]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 303.26254, -50.776596, 5.3865366)
+
+[node name="Seven of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="34" unique_id=1299914617]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -0.44851685, -50.776596, 5.3865366)
+
+[node name="Six of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="35" unique_id=1700475193]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -61.190735, -50.776596, 5.3865366)
+
+[node name="Ten of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="36" unique_id=1813270150]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 181.7781, -50.776596, 5.3865366)
+
+[node name="Three of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="37" unique_id=1416314528]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -243.4174, -50.77661, 5.386536)
+
+[node name="Two of Diamonds" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="38" unique_id=364250116]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -304.15964, -50.77661, 5.386536)
+
+[node name="Ace of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="39" unique_id=1733401655]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -364.90186, -156.0082, 5.3865356)
+
+[node name="Eight of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="40" unique_id=345393418]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 60.2937, -156.0082, 5.3865376)
+
+[node name="Five of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="41" unique_id=992385003]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -121.93297, -156.0082, 5.3865366)
+
+[node name="Four of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="42" unique_id=1464243901]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -182.67519, -156.0082, 5.3865366)
+
+[node name="Jack of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="43" unique_id=183519449]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 242.52036, -156.0082, 5.3865366)
+
+[node name="King of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="44" unique_id=265728740]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 364.0048, -156.0082, 5.3865366)
+
+[node name="Nine of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="45" unique_id=155141217]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 121.03592, -156.0082, 5.386536)
+
+[node name="Queen of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="46" unique_id=1550092081]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 303.26254, -156.0082, 5.3865366)
+
+[node name="Seven of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="47" unique_id=84010303]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -0.44851685, -156.0082, 5.3865366)
+
+[node name="Six of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="48" unique_id=1852120655]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -61.190735, -156.0082, 5.3865366)
+
+[node name="Ten of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="49" unique_id=974072974]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, 181.7781, -156.0082, 5.3865366)
+
+[node name="Three of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="50" unique_id=1776296183]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -243.4174, -156.00821, 5.386536)
+
+[node name="Two of Clubs" parent="Sketchfab_model/Card Deck_FBX/Object_2/RootNode" parent_id_path=PackedInt32Array(831075226) index="51" unique_id=1980344471]
+transform = Transform3D(1.122229, -3.2142667e-21, -1.1872558e-14, -1.1331617e-28, 1, -6.549335e-08, 2.7089188e-14, 1.3315805e-07, 0.4918467, -304.15964, -156.00821, 5.386536)
