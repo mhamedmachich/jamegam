@@ -1,0 +1,171 @@
+[gd_scene format=3 uid="uid://b4pgaba08twdd"]
+
+[ext_resource type="Texture2D" uid="uid://dhnb0n5xihfo5" path="res://assets/Texture_12_Diffuse.png" id="1_k5jlv"]
+[ext_resource type="PackedScene" uid="uid://cef7lif61xm1a" path="res://assets/gameready_casino_scene/Eddex_DiceSet_V1/gltf/D6-Marble.gltf" id="2_6vs76"]
+
+[sub_resource type="Shader" id="Shader_k5jlv"]
+code = "
+// NOTE: Shader automatically converted from Godot Engine 4.7.stable's ProceduralSkyMaterial.
+
+shader_type sky;
+render_mode use_debanding;
+
+uniform vec4 sky_top_color : source_color = vec4(0.385, 0.454, 0.55, 1.0);
+uniform vec4 sky_horizon_color : source_color = vec4(0.646, 0.656, 0.67, 1.0);
+uniform float inv_sky_curve : hint_range(1, 100) = 4.0;
+uniform vec4 ground_bottom_color : source_color = vec4(0.2, 0.169, 0.133, 1.0);
+uniform vec4 ground_horizon_color : source_color = vec4(0.646, 0.656, 0.67, 1.0);
+uniform float inv_ground_curve : hint_range(1, 100) = 30.0;
+uniform float sun_angle_max = 0.877;
+uniform float inv_sun_curve : hint_range(1, 100) = 22.78;
+uniform float exposure : hint_range(0, 128) = 1.0;
+
+uniform sampler2D cloud_texture;
+uniform sampler2D cloud_texture2;
+uniform vec2 cloud_direction;
+uniform vec2 cloud_direction2;
+uniform vec2 cloud_scale;
+uniform float cloud_distance;
+
+uniform float cloud_speed;
+uniform float cloud_speed2;
+
+
+
+uniform sampler2D sky_cover : filter_linear, source_color, hint_default_black;
+uniform vec4 sky_cover_modulate : source_color = vec4(1.0, 1.0, 1.0, 1.0);
+
+void sky() {
+	float v_angle = clamp(EYEDIR.y, -1.0, 1.0);
+	vec3 sky = mix(sky_top_color.rgb, sky_horizon_color.rgb, clamp(pow(1.0 - v_angle, inv_sky_curve), 0.0, 1.0));
+
+	if (LIGHT0_ENABLED) {
+		float sun_angle = dot(LIGHT0_DIRECTION, EYEDIR);
+		float sun_size = cos(LIGHT0_SIZE);
+		if (sun_angle > sun_size) {
+			sky = LIGHT0_COLOR * LIGHT0_ENERGY;
+		} else if (sun_angle > sun_angle_max) {
+			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
+			sky = mix(sky, LIGHT0_COLOR * LIGHT0_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
+		}
+	}
+
+	if (LIGHT1_ENABLED) {
+		float sun_angle = dot(LIGHT1_DIRECTION, EYEDIR);
+		float sun_size = cos(LIGHT1_SIZE);
+		if (sun_angle > sun_size) {
+			sky = LIGHT1_COLOR * LIGHT1_ENERGY;
+		} else if (sun_angle > sun_angle_max) {
+			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
+			sky = mix(sky, LIGHT1_COLOR * LIGHT1_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
+		}
+	}
+
+	if (LIGHT2_ENABLED) {
+		float sun_angle = dot(LIGHT2_DIRECTION, EYEDIR);
+		float sun_size = cos(LIGHT2_SIZE);
+		if (sun_angle > sun_size) {
+			sky = LIGHT2_COLOR * LIGHT2_ENERGY;
+		} else if (sun_angle > sun_angle_max) {
+			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
+			sky = mix(sky, LIGHT2_COLOR * LIGHT2_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
+		}
+	}
+
+	if (LIGHT3_ENABLED) {
+		float sun_angle = dot(LIGHT3_DIRECTION, EYEDIR);
+		float sun_size = cos(LIGHT3_SIZE);
+		if (sun_angle > sun_size) {
+			sky = LIGHT3_COLOR * LIGHT3_ENERGY;
+		} else if (sun_angle > sun_angle_max) {
+			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
+			sky = mix(sky, LIGHT3_COLOR * LIGHT3_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
+		}
+	}
+
+	
+	
+	vec3 ground = mix(ground_bottom_color.rgb, ground_horizon_color.rgb, clamp(pow(1.0 + v_angle, inv_ground_curve), 0.0, 1.0));
+
+	vec2 sky_uv = EYEDIR.xz / EYEDIR.y;
+	vec3 clouds = texture(cloud_texture, (sky_uv*cloud_scale) + (TIME*cloud_direction*cloud_speed*.01)).rgb - texture(cloud_texture2, (sky_uv * cloud_scale) + (TIME * cloud_direction2 * cloud_speed2*.01)).rgb;
+	clouds = clouds - smoothstep(0.0, EYEDIR.y, cloud_distance);
+	clouds = clamp(clouds,0,1);
+	sky += clouds;
+	COLOR = mix(ground, sky, step(0.0, EYEDIR.y)) * exposure;
+}
+"
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_tpyai"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_5m1y3"]
+noise = SubResource("FastNoiseLite_tpyai")
+seamless = true
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_foa3b"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_rndcs"]
+width = 1024
+height = 1024
+noise = SubResource("FastNoiseLite_foa3b")
+seamless = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6vs76"]
+shader = SubResource("Shader_k5jlv")
+shader_parameter/sky_top_color = Color(0.2553783, 0.6284367, 0.8265774, 1)
+shader_parameter/sky_horizon_color = Color(0.514684, 0.63352084, 0.7256653, 1)
+shader_parameter/inv_sky_curve = 3.999999841054287
+shader_parameter/ground_bottom_color = Color(0.25490198, 0.627451, 0.827451, 1)
+shader_parameter/ground_horizon_color = Color(0.5137255, 0.63529414, 0.7254902, 1)
+shader_parameter/inv_ground_curve = 30.000000670552268
+shader_parameter/sun_angle_max = 0.8660254
+shader_parameter/inv_sun_curve = 22.782017
+shader_parameter/exposure = 1.0
+shader_parameter/cloud_texture = SubResource("NoiseTexture2D_5m1y3")
+shader_parameter/cloud_texture2 = SubResource("NoiseTexture2D_rndcs")
+shader_parameter/cloud_direction = Vector2(-1, 1)
+shader_parameter/cloud_direction2 = Vector2(1, -1)
+shader_parameter/cloud_scale = Vector2(0.05, 0.05)
+shader_parameter/cloud_distance = 0.035
+shader_parameter/cloud_speed = 0.006
+shader_parameter/cloud_speed2 = 0.004
+shader_parameter/sky_cover_modulate = Color(1, 1, 1, 1)
+
+[sub_resource type="Sky" id="Sky_bexhn"]
+sky_material = SubResource("ShaderMaterial_6vs76")
+
+[sub_resource type="Environment" id="Environment_t7iv1"]
+background_mode = 2
+sky = SubResource("Sky_bexhn")
+glow_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4m1cr"]
+albedo_texture = ExtResource("1_k5jlv")
+uv1_triplanar = true
+
+[node name="Wrold" type="Node3D" unique_id=186557952]
+
+[node name="Map" type="Node3D" parent="." unique_id=158330307]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map" unique_id=2029921649]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Map" unique_id=1519615360]
+environment = SubResource("Environment_t7iv1")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Map" unique_id=904843703]
+material_override = SubResource("StandardMaterial3D_4m1cr")
+size = Vector3(100, 0.2, 100)
+
+[node name="D6-Marble" parent="." unique_id=43442997 instance=ExtResource("2_6vs76")]
+transform = Transform3D(0.22549291, 0.31719914, 0.5017595, 0, 0.53674126, -0.33931372, -0.5936143, 0.12049266, 0.19060054, -2.0549603, 1.5886425, 0.3429112)
+
+[node name="D6-Marble2" parent="." unique_id=415914160 instance=ExtResource("2_6vs76")]
+transform = Transform3D(-0.61257255, 0.74955267, 0.2508496, 0.49952623, 0.6130731, -0.6120579, -0.61255884, -0.24962391, -0.749973, -1.772714, 4.8135414, 3.2028692)
+
+[node name="D6-Marble3" parent="." unique_id=490766732 instance=ExtResource("2_6vs76")]
+transform = Transform3D(-0.8876982, 0.40164688, -0.22510336, 0.4338187, 0.8934143, -0.11667072, 0.15425014, -0.20122245, -0.96732426, 1.5761365, 6.115651, 3.8982239)
+
+[node name="D6-Marble4" parent="." unique_id=1239514408 instance=ExtResource("2_6vs76")]
+transform = Transform3D(0.5960062, -0.062242925, -0.80056363, 0.37517157, 0.9030642, 0.20909661, 0.7099456, -0.42497167, 0.5615837, 3.5627677, 7.662395, 0.82555103)
