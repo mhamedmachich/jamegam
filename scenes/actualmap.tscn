@@ -4,148 +4,65 @@
 [ext_resource type="PackedScene" uid="uid://brj3nj7juygfp" path="res://player/player_3d.tscn" id="2_7w8fq"]
 [ext_resource type="Texture2D" uid="uid://fhp847ng3pyw" path="res://assets/ishowspeed-tung-tung-tung-sahur-ezgif.com-gif-to-sprite-converter.png" id="2_oho7v"]
 [ext_resource type="Script" uid="uid://my14647cp32t" path="res://scenes/animated_sprite_3d.gd" id="3_84vxb"]
-[ext_resource type="PackedScene" uid="uid://cvmtgdksk7ac8" path="res://scenes/map.tscn" id="3_pftmj"]
+[ext_resource type="PackedScene" uid="uid://cvmtgdksk7ac8" path="res://scenes/cards/map.tscn" id="3_pftmj"]
 [ext_resource type="PackedScene" uid="uid://dgd7mu21i3xkx" path="res://models/gltf/D6-Marble.gltf" id="4_imuwt"]
+[ext_resource type="PackedScene" uid="uid://de6c5f5c4y8sq" path="res://assets/card deck in my ahhhhhh/six_of_spades.tscn" id="5_klxr8"]
+[ext_resource type="PackedScene" uid="uid://qqyemtkl8jmg" path="res://scenes/cards/Ace of Clubs.tscn" id="7_2v8qd"]
+[ext_resource type="PackedScene" uid="uid://c8puydcg04j6c" path="res://scenes/cards/Ace of Diamonds.tscn" id="8_knwb3"]
+[ext_resource type="PackedScene" uid="uid://bt74msag7pj1v" path="res://scenes/cards/Ace of Hearts.tscn" id="9_t3ejt"]
+[ext_resource type="PackedScene" uid="uid://bj62jg8fq0bcu" path="res://scenes/cards/Ace of Spades.tscn" id="10_3liid"]
+[ext_resource type="PackedScene" uid="uid://doo03oj88la4d" path="res://scenes/cards/Eigh of Hearts.tscn" id="11_v03od"]
+[ext_resource type="PackedScene" uid="uid://cxik2am8tgccc" path="res://scenes/cards/Eight of Clubs.tscn" id="12_benye"]
+[ext_resource type="PackedScene" uid="uid://baj8y6gwovtgy" path="res://scenes/cards/Eight of Diamonds.tscn" id="13_1f0kg"]
+[ext_resource type="PackedScene" uid="uid://ku1dum40eemq" path="res://scenes/cards/Eight of Spades.tscn" id="14_exrpu"]
+[ext_resource type="PackedScene" uid="uid://dgv1h303hglvp" path="res://scenes/cards/Five of Clubs.tscn" id="15_joewf"]
+[ext_resource type="PackedScene" uid="uid://crmip1dpirpsm" path="res://scenes/cards/Five of Diamonds.tscn" id="16_uw7se"]
+[ext_resource type="PackedScene" uid="uid://bagncxqlkdbt6" path="res://scenes/cards/Five of Hearts.tscn" id="17_23bnk"]
+[ext_resource type="PackedScene" uid="uid://chxpf0428q05w" path="res://scenes/cards/Five of Spades.tscn" id="18_rlonk"]
+[ext_resource type="PackedScene" uid="uid://ciow8m2dror1w" path="res://scenes/cards/Four of Clubs.tscn" id="19_3ier3"]
+[ext_resource type="PackedScene" uid="uid://cbjybehhemfer" path="res://scenes/cards/Four of Diamonds.tscn" id="20_jx8bc"]
+[ext_resource type="PackedScene" uid="uid://2j6yftvn58j4" path="res://scenes/cards/Four of Hearts.tscn" id="21_gsmlw"]
+[ext_resource type="PackedScene" uid="uid://uj7fyyantj2p" path="res://scenes/cards/Four of Spades.tscn" id="22_jenjg"]
+[ext_resource type="PackedScene" uid="uid://ddaja7arucpby" path="res://scenes/cards/Jack of Clubs.tscn" id="23_leybv"]
+[ext_resource type="PackedScene" uid="uid://c4asd7xcnfnf5" path="res://scenes/cards/Jack of Diamonds.tscn" id="24_6854t"]
+[ext_resource type="PackedScene" uid="uid://dn8qxatgwx5le" path="res://scenes/cards/Jack of Hearts.tscn" id="25_73osj"]
+[ext_resource type="PackedScene" uid="uid://bsgko6dye6hxr" path="res://scenes/cards/Jack of Spades.tscn" id="26_kt80d"]
+[ext_resource type="PackedScene" uid="uid://k8yorl4i1yj2" path="res://scenes/cards/King of Clubs.tscn" id="27_stkty"]
+[ext_resource type="PackedScene" uid="uid://cli6hnnstobv3" path="res://scenes/cards/King of Diamonds.tscn" id="28_l2x37"]
+[ext_resource type="PackedScene" uid="uid://bj7mqfxn3nw0" path="res://scenes/cards/King of Hearts.tscn" id="29_qsaqs"]
+[ext_resource type="PackedScene" uid="uid://ci66alf8vclas" path="res://scenes/cards/King of Spades.tscn" id="30_xuh1l"]
+[ext_resource type="PackedScene" uid="uid://bkv1tgy4tn2pj" path="res://scenes/cards/Nine of Clubs.tscn" id="31_dt0uw"]
+[ext_resource type="PackedScene" uid="uid://dnplm2qs0qk0c" path="res://scenes/cards/Nine of Diamonds.tscn" id="32_l7ug0"]
+[ext_resource type="PackedScene" uid="uid://dijode5nhm8vg" path="res://scenes/cards/Nine of Hearts.tscn" id="33_tslg1"]
+[ext_resource type="PackedScene" uid="uid://ooreunqmuwxg" path="res://scenes/cards/Nine of Spades.tscn" id="34_majb5"]
+[ext_resource type="PackedScene" uid="uid://bfdhuil53ovvc" path="res://scenes/cards/Queen of Clubs.tscn" id="35_nx50j"]
+[ext_resource type="PackedScene" uid="uid://bf73yr5tr4wl2" path="res://scenes/cards/Queen of Diamonds.tscn" id="36_kbqco"]
+[ext_resource type="PackedScene" uid="uid://c6ckj2p5vgtc" path="res://scenes/cards/Queen of Hearts.tscn" id="37_0nifm"]
+[ext_resource type="PackedScene" uid="uid://g8bydte13dtv" path="res://scenes/cards/Queen of Spades.tscn" id="38_vy4bj"]
+[ext_resource type="PackedScene" uid="uid://bmfrhpsqtswb1" path="res://scenes/cards/Seven of Clubs.tscn" id="39_01otj"]
+[ext_resource type="PackedScene" uid="uid://2fpxrlo06lcx" path="res://scenes/cards/Seven of Diamonds.tscn" id="40_sk865"]
+[ext_resource type="PackedScene" uid="uid://csk0tteq26pkf" path="res://scenes/cards/Seven of Hearts.tscn" id="41_r3bma"]
+[ext_resource type="PackedScene" uid="uid://bsjcni73f02dk" path="res://scenes/cards/Seven of Spades.tscn" id="42_3vw72"]
+[ext_resource type="PackedScene" uid="uid://blkvl6qb6633a" path="res://scenes/cards/Six of Clubs.tscn" id="43_0l4x3"]
+[ext_resource type="PackedScene" uid="uid://6pglvjkg0g2j" path="res://scenes/cards/Six of Diamonds.tscn" id="44_n1xjh"]
+[ext_resource type="PackedScene" uid="uid://ceprejjj757be" path="res://scenes/cards/Six of Hearts.tscn" id="45_4rk6i"]
+[ext_resource type="PackedScene" uid="uid://bfs41vo13r4y5" path="res://scenes/cards/Ten of Clubs.tscn" id="46_c8atd"]
+[ext_resource type="PackedScene" uid="uid://cqgt7jlnmaf8y" path="res://scenes/cards/Ten of Diamonds.tscn" id="47_00mou"]
+[ext_resource type="PackedScene" uid="uid://dopgel1la6yr6" path="res://scenes/cards/Ten of Hearts.tscn" id="48_xi6jt"]
+[ext_resource type="PackedScene" uid="uid://m3ee3m81mjjt" path="res://scenes/cards/Ten of Spades.tscn" id="49_k5thm"]
+[ext_resource type="PackedScene" uid="uid://dnmm2st53yvrt" path="res://scenes/cards/Three of Clubs.tscn" id="50_j5wch"]
+[ext_resource type="PackedScene" uid="uid://e6x7qex70tjw" path="res://scenes/cards/Three of Diamonds.tscn" id="51_mjijo"]
+[ext_resource type="PackedScene" uid="uid://tpmciv2cb0tm" path="res://scenes/cards/Three of Hearts.tscn" id="52_t8xxx"]
+[ext_resource type="PackedScene" uid="uid://d02q45wemgybu" path="res://scenes/cards/Three of Spades.tscn" id="53_dng13"]
+[ext_resource type="PackedScene" uid="uid://cudbpw86ggviv" path="res://scenes/cards/Two of Clubs.tscn" id="54_6d0oa"]
+[ext_resource type="PackedScene" uid="uid://kmg7q7ejt4r1" path="res://scenes/cards/Two of Diamonds.tscn" id="55_hufh1"]
+[ext_resource type="PackedScene" uid="uid://d20jh114ui3nc" path="res://scenes/cards/Two of Hearts.tscn" id="56_ovgtk"]
+[ext_resource type="PackedScene" uid="uid://cgtpla8u3btuj" path="res://scenes/cards/Two of Spades.tscn" id="57_spuov"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t8nj7"]
 albedo_texture = ExtResource("1_pftmj")
 uv1_scale = Vector3(0.02, 0.02, 0.02)
 uv1_triplanar = true
-
-[sub_resource type="Shader" id="Shader_7w8fq"]
-code = "
-// NOTE: Shader automatically converted from Godot Engine 4.7.stable's ProceduralSkyMaterial.
-
-shader_type sky;
-render_mode use_debanding;
-
-uniform vec4 sky_top_color : source_color = vec4(0.385, 0.454, 0.55, 1.0);
-uniform vec4 sky_horizon_color : source_color = vec4(0.646, 0.656, 0.67, 1.0);
-uniform float inv_sky_curve : hint_range(1, 100) = 4.0;
-uniform vec4 ground_bottom_color : source_color = vec4(0.2, 0.169, 0.133, 1.0);
-uniform vec4 ground_horizon_color : source_color = vec4(0.646, 0.656, 0.67, 1.0);
-uniform float inv_ground_curve : hint_range(1, 100) = 30.0;
-uniform float sun_angle_max = 0.877;
-uniform float inv_sun_curve : hint_range(1, 100) = 22.78;
-uniform float exposure : hint_range(0, 128) = 1.0;
-
-uniform sampler2D sky_cover : filter_linear, source_color, hint_default_black;
-uniform vec4 sky_cover_modulate : source_color = vec4(1.0, 1.0, 1.0, 1.0);
-
-uniform sampler2D cloud_texture;
-uniform sampler2D cloud_texture2;
-uniform vec2 cloud_direction;
-uniform vec2 cloud_direction2;
-uniform vec2 cloud_scale;
-uniform float cloud_distance;
-uniform float cloud_speed;
-uniform float cloud_speed2;
-
-
-void sky() {
-	float v_angle = clamp(EYEDIR.y, -1.0, 1.0);
-	vec3 sky = mix(sky_top_color.rgb, sky_horizon_color.rgb, clamp(pow(1.0 - v_angle, inv_sky_curve), 0.0, 1.0));
-
-	if (LIGHT0_ENABLED) {
-		float sun_angle = dot(LIGHT0_DIRECTION, EYEDIR);
-		float sun_size = cos(LIGHT0_SIZE);
-		if (sun_angle > sun_size) {
-			sky = LIGHT0_COLOR * LIGHT0_ENERGY;
-		} else if (sun_angle > sun_angle_max) {
-			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
-			sky = mix(sky, LIGHT0_COLOR * LIGHT0_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
-		}
-	}
-
-	if (LIGHT1_ENABLED) {
-		float sun_angle = dot(LIGHT1_DIRECTION, EYEDIR);
-		float sun_size = cos(LIGHT1_SIZE);
-		if (sun_angle > sun_size) {
-			sky = LIGHT1_COLOR * LIGHT1_ENERGY;
-		} else if (sun_angle > sun_angle_max) {
-			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
-			sky = mix(sky, LIGHT1_COLOR * LIGHT1_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
-		}
-	}
-
-	if (LIGHT2_ENABLED) {
-		float sun_angle = dot(LIGHT2_DIRECTION, EYEDIR);
-		float sun_size = cos(LIGHT2_SIZE);
-		if (sun_angle > sun_size) {
-			sky = LIGHT2_COLOR * LIGHT2_ENERGY;
-		} else if (sun_angle > sun_angle_max) {
-			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
-			sky = mix(sky, LIGHT2_COLOR * LIGHT2_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
-		}
-	}
-
-	if (LIGHT3_ENABLED) {
-		float sun_angle = dot(LIGHT3_DIRECTION, EYEDIR);
-		float sun_size = cos(LIGHT3_SIZE);
-		if (sun_angle > sun_size) {
-			sky = LIGHT3_COLOR * LIGHT3_ENERGY;
-		} else if (sun_angle > sun_angle_max) {
-			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
-			sky = mix(sky, LIGHT3_COLOR * LIGHT3_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
-		}
-	}
-
-	
-	
-	vec3 ground = mix(ground_bottom_color.rgb, ground_horizon_color.rgb, clamp(pow(1.0 + v_angle, inv_ground_curve), 0.0, 1.0));
-
-	vec2 sky_uv = EYEDIR.xz / EYEDIR.y;
-	vec3 clouds = texture(cloud_texture, (sky_uv*cloud_scale) + (TIME*cloud_direction*cloud_speed*.01)).rgb - texture(cloud_texture2, (sky_uv * cloud_scale) + (TIME * cloud_direction2 * cloud_speed2*.01)).rgb;
-	clouds = clouds - smoothstep(0, EYEDIR.y, cloud_distance);
-	clouds = clamp(clouds,0, 1);
-	sky += clouds;
-
-	COLOR = mix(ground, sky, step(0.0, EYEDIR.y)) * exposure;
-}
-"
-
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_2klcf"]
-
-[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_paxxb"]
-noise = SubResource("FastNoiseLite_2klcf")
-seamless = true
-
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_0cso3"]
-
-[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_gldc4"]
-width = 1024
-height = 1024
-noise = SubResource("FastNoiseLite_0cso3")
-seamless = true
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_pftmj"]
-shader = SubResource("Shader_7w8fq")
-shader_parameter/sky_top_color = Color(0.39642844, 0.6653337, 0.76965487, 1)
-shader_parameter/sky_horizon_color = Color(0.55528706, 0.7088702, 0.78064513, 1)
-shader_parameter/inv_sky_curve = 3.999999841054287
-shader_parameter/ground_bottom_color = Color(0.39607844, 0.6666667, 0.76862746, 1)
-shader_parameter/ground_horizon_color = Color(0.5568628, 0.70980394, 0.78039217, 1)
-shader_parameter/inv_ground_curve = 30.000000670552268
-shader_parameter/sun_angle_max = 0.8660254
-shader_parameter/inv_sun_curve = 22.782017
-shader_parameter/exposure = 1.0
-shader_parameter/sky_cover_modulate = Color(1, 1, 1, 1)
-shader_parameter/cloud_texture = SubResource("NoiseTexture2D_paxxb")
-shader_parameter/cloud_texture2 = SubResource("NoiseTexture2D_gldc4")
-shader_parameter/cloud_direction = Vector2(-1, 1)
-shader_parameter/cloud_direction2 = Vector2(1, -1)
-shader_parameter/cloud_scale = Vector2(0.05, 0.05)
-shader_parameter/cloud_distance = 0.035
-shader_parameter/cloud_speed = 0.006
-shader_parameter/cloud_speed2 = 0.002
-
-[sub_resource type="Sky" id="Sky_pftmj"]
-sky_material = SubResource("ShaderMaterial_pftmj")
-
-[sub_resource type="Environment" id="Environment_imuwt"]
-background_mode = 2
-sky = SubResource("Sky_pftmj")
-glow_enabled = true
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7w8fq"]
 transparency = 1
@@ -1252,15 +1169,242 @@ albedo_color = Color(1, 1, 1, 0)
 transparency = 1
 albedo_color = Color(1, 1, 1, 0)
 
+[sub_resource type="Shader" id="Shader_7w8fq"]
+code = "
+// NOTE: Shader automatically converted from Godot Engine 4.7.stable's ProceduralSkyMaterial.
+
+shader_type sky;
+render_mode use_debanding;
+
+uniform vec4 sky_top_color : source_color = vec4(0.385, 0.454, 0.55, 1.0);
+uniform vec4 sky_horizon_color : source_color = vec4(0.646, 0.656, 0.67, 1.0);
+uniform float inv_sky_curve : hint_range(1, 100) = 4.0;
+uniform vec4 ground_bottom_color : source_color = vec4(0.2, 0.169, 0.133, 1.0);
+uniform vec4 ground_horizon_color : source_color = vec4(0.646, 0.656, 0.67, 1.0);
+uniform float inv_ground_curve : hint_range(1, 100) = 30.0;
+uniform float sun_angle_max = 0.877;
+uniform float inv_sun_curve : hint_range(1, 100) = 22.78;
+uniform float exposure : hint_range(0, 128) = 1.0;
+
+uniform sampler2D sky_cover : filter_linear, source_color, hint_default_black;
+uniform vec4 sky_cover_modulate : source_color = vec4(1.0, 1.0, 1.0, 1.0);
+
+uniform sampler2D cloud_texture;
+uniform sampler2D cloud_texture2;
+uniform vec2 cloud_direction;
+uniform vec2 cloud_direction2;
+uniform vec2 cloud_scale;
+uniform float cloud_distance;
+uniform float cloud_speed;
+uniform float cloud_speed2;
+
+
+void sky() {
+	float v_angle = clamp(EYEDIR.y, -1.0, 1.0);
+	vec3 sky = mix(sky_top_color.rgb, sky_horizon_color.rgb, clamp(pow(1.0 - v_angle, inv_sky_curve), 0.0, 1.0));
+
+	if (LIGHT0_ENABLED) {
+		float sun_angle = dot(LIGHT0_DIRECTION, EYEDIR);
+		float sun_size = cos(LIGHT0_SIZE);
+		if (sun_angle > sun_size) {
+			sky = LIGHT0_COLOR * LIGHT0_ENERGY;
+		} else if (sun_angle > sun_angle_max) {
+			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
+			sky = mix(sky, LIGHT0_COLOR * LIGHT0_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
+		}
+	}
+
+	if (LIGHT1_ENABLED) {
+		float sun_angle = dot(LIGHT1_DIRECTION, EYEDIR);
+		float sun_size = cos(LIGHT1_SIZE);
+		if (sun_angle > sun_size) {
+			sky = LIGHT1_COLOR * LIGHT1_ENERGY;
+		} else if (sun_angle > sun_angle_max) {
+			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
+			sky = mix(sky, LIGHT1_COLOR * LIGHT1_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
+		}
+	}
+
+	if (LIGHT2_ENABLED) {
+		float sun_angle = dot(LIGHT2_DIRECTION, EYEDIR);
+		float sun_size = cos(LIGHT2_SIZE);
+		if (sun_angle > sun_size) {
+			sky = LIGHT2_COLOR * LIGHT2_ENERGY;
+		} else if (sun_angle > sun_angle_max) {
+			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
+			sky = mix(sky, LIGHT2_COLOR * LIGHT2_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
+		}
+	}
+
+	if (LIGHT3_ENABLED) {
+		float sun_angle = dot(LIGHT3_DIRECTION, EYEDIR);
+		float sun_size = cos(LIGHT3_SIZE);
+		if (sun_angle > sun_size) {
+			sky = LIGHT3_COLOR * LIGHT3_ENERGY;
+		} else if (sun_angle > sun_angle_max) {
+			float c2 = (sun_size - sun_angle) / (sun_size - sun_angle_max);
+			sky = mix(sky, LIGHT3_COLOR * LIGHT3_ENERGY, clamp(pow(1.0 - c2, inv_sun_curve), 0.0, 1.0));
+		}
+	}
+
+	
+	
+	vec3 ground = mix(ground_bottom_color.rgb, ground_horizon_color.rgb, clamp(pow(1.0 + v_angle, inv_ground_curve), 0.0, 1.0));
+
+	vec2 sky_uv = EYEDIR.xz / EYEDIR.y;
+	vec3 clouds = texture(cloud_texture, (sky_uv*cloud_scale) + (TIME*cloud_direction*cloud_speed*.01)).rgb - texture(cloud_texture2, (sky_uv * cloud_scale) + (TIME * cloud_direction2 * cloud_speed2*.01)).rgb;
+	clouds = clouds - smoothstep(0, EYEDIR.y, cloud_distance);
+	clouds = clamp(clouds,0, 1);
+	sky += clouds;
+
+	COLOR = mix(ground, sky, step(0.0, EYEDIR.y)) * exposure;
+}
+"
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_2klcf"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_paxxb"]
+noise = SubResource("FastNoiseLite_2klcf")
+seamless = true
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_0cso3"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_gldc4"]
+width = 1024
+height = 1024
+noise = SubResource("FastNoiseLite_0cso3")
+seamless = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_pftmj"]
+shader = SubResource("Shader_7w8fq")
+shader_parameter/sky_top_color = Color(0.39642844, 0.6653337, 0.76965487, 1)
+shader_parameter/sky_horizon_color = Color(0.55528706, 0.7088702, 0.78064513, 1)
+shader_parameter/inv_sky_curve = 3.999999841054287
+shader_parameter/ground_bottom_color = Color(0.39607844, 0.6666667, 0.76862746, 1)
+shader_parameter/ground_horizon_color = Color(0.5568628, 0.70980394, 0.78039217, 1)
+shader_parameter/inv_ground_curve = 30.000000670552268
+shader_parameter/sun_angle_max = 0.8660254
+shader_parameter/inv_sun_curve = 22.782017
+shader_parameter/exposure = 1.0
+shader_parameter/sky_cover_modulate = Color(1, 1, 1, 1)
+shader_parameter/cloud_texture = SubResource("NoiseTexture2D_paxxb")
+shader_parameter/cloud_texture2 = SubResource("NoiseTexture2D_gldc4")
+shader_parameter/cloud_direction = Vector2(-1, 1)
+shader_parameter/cloud_direction2 = Vector2(1, -1)
+shader_parameter/cloud_scale = Vector2(0.05, 0.05)
+shader_parameter/cloud_distance = 0.035
+shader_parameter/cloud_speed = 0.006
+shader_parameter/cloud_speed2 = 0.002
+
+[sub_resource type="Sky" id="Sky_pftmj"]
+sky_material = SubResource("ShaderMaterial_pftmj")
+
+[sub_resource type="Environment" id="Environment_imuwt"]
+background_mode = 2
+sky = SubResource("Sky_pftmj")
+glow_enabled = true
+
 [node name="World" type="Node3D" unique_id=1661216887]
+metadata/saved_target_scale = Vector3(0.027, 0.026999999, 0.016)
 
 [node name="Map" type="Node3D" parent="." unique_id=1523488221]
 
-[node name="Ground" type="CSGBox3D" parent="Map" unique_id=1450801566]
+[node name="casino scene" parent="Map" unique_id=313047519 instance=ExtResource("3_pftmj")]
+transform = Transform3D(0.447, 0, 0, 0, 0.447, 0, 0, 0, 0.447, 10.776751, 15.131531, 3.4689293)
+
+[node name="actual blocks" type="Node3D" parent="Map" unique_id=244113019]
+
+[node name="Ground" type="CSGBox3D" parent="Map/actual blocks" unique_id=1450801566]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.194183, -3.46251, 5.3258667)
 use_collision = true
 size = Vector3(222.29547, 1, 463.64343)
 material = SubResource("StandardMaterial3D_t8nj7")
+
+[node name="table" type="CSGBox3D" parent="Map/actual blocks" unique_id=1713257633]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -59.11739, 12.030213, 5.0612755)
+use_collision = true
+size = Vector3(1, 10.704376, 71.49443)
+material = SubResource("StandardMaterial3D_7w8fq")
+
+[node name="ishowspeed" type="CSGBox3D" parent="Map/actual blocks" unique_id=1364924396]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -62.493435, 15.826421, -4.2741623)
+use_collision = true
+size = Vector3(5.927246, 3.9522858, 18.042881)
+material = SubResource("StandardMaterial3D_7w8fq")
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="Map/actual blocks/ishowspeed" unique_id=626416670]
+transform = Transform3D(0.02054415, 0.99978894, -4.339606e-08, -0.11987303, 0.0024631664, -0.99278617, -0.99257666, 0.020395955, 0.119898334, 0, 0, 0)
+sprite_frames = SubResource("SpriteFrames_t8nj7")
+speed_scale = 2.0
+script = ExtResource("3_84vxb")
+
+[node name="coins" type="CSGCylinder3D" parent="Map/actual blocks" unique_id=1539861057]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.608006, 12.119888, 2.3751464)
+use_collision = true
+material = SubResource("StandardMaterial3D_v1d6d")
+
+[node name="roulette" type="CSGCylinder3D" parent="Map/actual blocks" unique_id=1843275019]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.538171, 17.217152, 9.740443)
+use_collision = true
+radius = 0.79785156
+material = SubResource("StandardMaterial3D_v1d6d")
+
+[node name="coins2" type="CSGCylinder3D" parent="Map/actual blocks" unique_id=78579330]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.619433, 12.300649, 1.0355136)
+use_collision = true
+material = SubResource("StandardMaterial3D_v1d6d")
+
+[node name="coins3" type="CSGCylinder3D" parent="Map/actual blocks" unique_id=1582825878]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5680923, 12.502843, -0.2864585)
+use_collision = true
+material = SubResource("StandardMaterial3D_v1d6d")
+
+[node name="coins4" type="CSGCylinder3D" parent="Map/actual blocks" unique_id=1141850633]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.640877, 12.966594, 0.22933644)
+use_collision = true
+height = 3.1875
+material = SubResource("StandardMaterial3D_v1d6d")
+
+[node name="table dahsfjkddashkjfdsa" type="CSGBox3D" parent="Map/actual blocks" unique_id=1757534666]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.22197, 11.26754, 3.8570557)
+use_collision = true
+size = Vector3(41.32132, 1, 20.494385)
+material = SubResource("StandardMaterial3D_4m1cr")
+
+[node name="dice" type="Node3D" parent="Map" unique_id=2117496495]
+
+[node name="D6-Marble" parent="Map/dice" unique_id=1896165962 instance=ExtResource("4_imuwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3508883, 15.754032, -0.41799784)
+
+[node name="D6-Marble2" parent="Map/dice" unique_id=847012831 instance=ExtResource("4_imuwt")]
+transform = Transform3D(0.564967, 0.8099538, -0.15743902, 0, 0.19080894, 0.98162717, 0.8251135, -0.55458695, 0.10780075, 2.3479977, 17.596687, 2.7723687)
+
+[node name="D6-Marble3" parent="Map/dice" unique_id=1628947048 instance=ExtResource("4_imuwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.628204, 12.706401, -1.4155307)
+
+[node name="D6-Marble4" parent="Map/dice" unique_id=1292014363 instance=ExtResource("4_imuwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.663713, 12.706401, -1.4155307)
+
+[node name="D6-Marble5" parent="Map/dice" unique_id=1507117993 instance=ExtResource("4_imuwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.923817, 12.706401, -1.4155307)
+
+[node name="D6-Marble6" parent="Map/dice" unique_id=310050973 instance=ExtResource("4_imuwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.421097, 12.706401, -1.4155307)
+
+[node name="D6-Marble7" parent="Map/dice" unique_id=1315149965 instance=ExtResource("4_imuwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.882797, 12.706401, -1.4155307)
+
+[node name="D6-Marble8" parent="Map/dice" unique_id=1507411177 instance=ExtResource("4_imuwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.163483, 12.706401, -1.4155307)
+
+[node name="D6-Marble9" parent="Map/dice" unique_id=231488633 instance=ExtResource("4_imuwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.189915, 12.706401, -1.4155307)
+
+[node name="D6-Marble10" parent="Map/dice" unique_id=182374000 instance=ExtResource("4_imuwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.493515, 12.706401, -1.4155307)
+
+[node name="D6-Marble11" parent="Map/dice" unique_id=1894357331 instance=ExtResource("4_imuwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51.05451, 12.706401, -1.4155307)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="Map" unique_id=1975653583]
 environment = SubResource("Environment_imuwt")
@@ -1269,115 +1413,161 @@ environment = SubResource("Environment_imuwt")
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
 shadow_enabled = true
 
-[node name="CSGBox3D" type="CSGBox3D" parent="Map" unique_id=2083457398]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -49.49589, 3.20947, -2.663311)
-use_collision = true
-size = Vector3(1, 5.4014893, 105.66496)
-material = SubResource("StandardMaterial3D_7w8fq")
-
-[node name="CSGBox3D5" type="CSGBox3D" parent="Map" unique_id=1713257633]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -59.11739, 12.030213, 5.0612755)
-use_collision = true
-size = Vector3(1, 10.704376, 71.49443)
-material = SubResource("StandardMaterial3D_7w8fq")
-
-[node name="CSGBox3D7" type="CSGBox3D" parent="Map" unique_id=1364924396]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -62.493435, 15.826421, -4.2741623)
-use_collision = true
-size = Vector3(5.927246, 3.9522858, 18.042881)
-material = SubResource("StandardMaterial3D_7w8fq")
-
-[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="Map/CSGBox3D7" unique_id=626416670]
-transform = Transform3D(0.02054415, 0.99978894, -4.339606e-08, -0.11987303, 0.0024631664, -0.99278617, -0.99257666, 0.020395955, 0.119898334, 0, 0, 0)
-sprite_frames = SubResource("SpriteFrames_t8nj7")
-script = ExtResource("3_84vxb")
-
-[node name="CSGBox3D6" type="CSGBox3D" parent="Map" unique_id=644398814]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -59.11739, 12.030213, 5.0612755)
-use_collision = true
-size = Vector3(1, 10.704376, 71.49443)
-material = SubResource("StandardMaterial3D_7w8fq")
-
-[node name="CSGBox3D3" type="CSGBox3D" parent="Map" unique_id=371529335]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.50411, 3.20947, -2.663311)
-use_collision = true
-size = Vector3(1, 5.4014893, 105.66496)
-material = SubResource("StandardMaterial3D_7w8fq")
-
-[node name="CSGBox3D2" type="CSGBox3D" parent="Map" unique_id=1026429684]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.49589157, 3.20947, -49.312897)
-use_collision = true
-size = Vector3(1, 5.4014893, 105.66496)
-material = SubResource("StandardMaterial3D_7w8fq")
-
-[node name="CSGBox3D4" type="CSGBox3D" parent="Map" unique_id=339185939]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.49588734, 3.20947, 49.554073)
-use_collision = true
-size = Vector3(1, 5.4014893, 105.66496)
-material = SubResource("StandardMaterial3D_7w8fq")
-
-[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Map" unique_id=1539861057]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.608006, 12.119888, 2.3751464)
-use_collision = true
-material = SubResource("StandardMaterial3D_v1d6d")
-
-[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Map" unique_id=78579330]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.619433, 12.300649, 1.0355136)
-use_collision = true
-material = SubResource("StandardMaterial3D_v1d6d")
-
-[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Map/CSGCylinder3D2" unique_id=1582825878]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05134058, 0.20219421, -1.3219721)
-use_collision = true
-material = SubResource("StandardMaterial3D_v1d6d")
-
-[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="Map/CSGCylinder3D2/CSGCylinder3D2" unique_id=1141850633]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9272156, 0.46375084, 0.51579493)
-use_collision = true
-height = 3.1875
-material = SubResource("StandardMaterial3D_v1d6d")
-
-[node name="table dahsfjkddashkjfdsa" type="CSGBox3D" parent="Map" unique_id=1757534666]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.22197, 11.26754, 3.8570557)
-use_collision = true
-size = Vector3(41.32132, 1, 20.494385)
-material = SubResource("StandardMaterial3D_4m1cr")
-
 [node name="Player3D" parent="." unique_id=1875688921 instance=ExtResource("2_7w8fq")]
-transform = Transform3D(-0.669529, 0, -0.7427859, 0, 1, 0, 0.7427859, 0, -0.669529, 14.284552, 14.547602, 2.1506958)
+transform = Transform3D(-0.669529, 0, -0.7427859, 0, 1, 0, 0.7427859, 0, -0.669529, 2.2102504, 21.386782, 20.373177)
 
-[node name="Node3D" parent="." unique_id=313047519 instance=ExtResource("3_pftmj")]
-transform = Transform3D(0.447, 0, 0, 0, 0.447, 0, 0, 0, 0.447, 10.776751, 15.131531, 3.4689293)
+[node name="Ace of Clubs" parent="." unique_id=1733401655 instance=ExtResource("7_2v8qd")]
+transform = Transform3D(0.011661038, -0.029795881, -0.00028225826, 0.0039712135, 0.0010478692, 0.018842854, -0.029533878, -0.011623582, 0.0024222238, 0.9502287, 20.707819, 19.550781)
 
-[node name="D6-Marble" parent="." unique_id=1896165962 instance=ExtResource("4_imuwt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5701632, 12.706401, -1.4155307)
+[node name="Ace of Diamonds" parent="." unique_id=1609709180 instance=ExtResource("8_knwb3")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -296.1191, 864.95935, -78.675385)
 
-[node name="D6-Marble2" parent="." unique_id=847012831 instance=ExtResource("4_imuwt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.111901, 12.706401, -1.4155307)
+[node name="Ace of Hearts" parent="." unique_id=1855574683 instance=ExtResource("9_t3ejt")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -296.1191, 970.1909, -78.675385)
 
-[node name="D6-Marble3" parent="." unique_id=1628947048 instance=ExtResource("4_imuwt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.628204, 12.706401, -1.4155307)
+[node name="Ace of Spades" parent="." unique_id=1341229349 instance=ExtResource("10_3liid")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -296.1191, 1075.4225, -78.675385)
 
-[node name="D6-Marble4" parent="." unique_id=1292014363 instance=ExtResource("4_imuwt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.663713, 12.706401, -1.4155307)
+[node name="Eigh of Hearts" parent="." unique_id=1349052558 instance=ExtResource("11_v03od")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 129.07645, 970.1909, -78.675385)
 
-[node name="D6-Marble5" parent="." unique_id=1507117993 instance=ExtResource("4_imuwt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.923817, 12.706401, -1.4155307)
+[node name="Eight of Clubs" parent="." unique_id=345393418 instance=ExtResource("12_benye")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 129.07645, 759.7278, -78.675385)
 
-[node name="D6-Marble6" parent="." unique_id=310050973 instance=ExtResource("4_imuwt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.421097, 12.706401, -1.4155307)
+[node name="Eight of Diamonds" parent="." unique_id=149613397 instance=ExtResource("13_1f0kg")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 129.07645, 864.95935, -78.675385)
 
-[node name="D6-Marble7" parent="." unique_id=1315149965 instance=ExtResource("4_imuwt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.882797, 12.706401, -1.4155307)
+[node name="Eight of Spades" parent="." unique_id=883112711 instance=ExtResource("14_exrpu")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 129.07645, 1075.4225, -78.675385)
 
-[node name="D6-Marble8" parent="." unique_id=1507411177 instance=ExtResource("4_imuwt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.163483, 12.706401, -1.4155307)
+[node name="Five of Clubs" parent="." unique_id=992385003 instance=ExtResource("15_joewf")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -53.150215, 759.7278, -78.675385)
 
-[node name="D6-Marble9" parent="." unique_id=231488633 instance=ExtResource("4_imuwt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.189915, 12.706401, -1.4155307)
+[node name="Five of Diamonds" parent="." unique_id=946290067 instance=ExtResource("16_uw7se")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -53.150215, 864.95935, -78.675385)
 
-[node name="D6-Marble10" parent="." unique_id=182374000 instance=ExtResource("4_imuwt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.493515, 12.706401, -1.4155307)
+[node name="Five of Hearts" parent="." unique_id=599474121 instance=ExtResource("17_23bnk")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -53.150215, 970.1909, -78.675385)
 
-[node name="D6-Marble11" parent="." unique_id=1894357331 instance=ExtResource("4_imuwt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51.05451, 12.706401, -1.4155307)
+[node name="Five of Spades" parent="." unique_id=543717895 instance=ExtResource("18_rlonk")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -53.150215, 1075.4225, -78.675385)
+
+[node name="Four of Clubs" parent="." unique_id=1464243901 instance=ExtResource("19_3ier3")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -113.89243, 759.7278, -78.675385)
+
+[node name="Four of Diamonds" parent="." unique_id=563626149 instance=ExtResource("20_jx8bc")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -113.89243, 864.95935, -78.675385)
+
+[node name="Four of Hearts" parent="." unique_id=984420396 instance=ExtResource("21_gsmlw")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -113.89243, 970.1909, -78.675385)
+
+[node name="Four of Spades" parent="." unique_id=2059284131 instance=ExtResource("22_jenjg")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -113.89243, 1075.4225, -78.675385)
+
+[node name="Jack of Clubs" parent="." unique_id=183519449 instance=ExtResource("23_leybv")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 311.3031, 759.7278, -78.675385)
+
+[node name="Jack of Diamonds" parent="." unique_id=1003862298 instance=ExtResource("24_6854t")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 311.3031, 864.95935, -78.675385)
+
+[node name="Jack of Hearts" parent="." unique_id=441968733 instance=ExtResource("25_73osj")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 311.3031, 970.1909, -78.675385)
+
+[node name="Jack of Spades" parent="." unique_id=1320700334 instance=ExtResource("26_kt80d")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 311.3031, 1075.4225, -78.675385)
+
+[node name="King of Clubs" parent="." unique_id=265728740 instance=ExtResource("27_stkty")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 432.78754, 759.7278, -78.675385)
+
+[node name="King of Diamonds" parent="." unique_id=2138044157 instance=ExtResource("28_l2x37")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 432.78754, 864.95935, -78.675385)
+
+[node name="King of Hearts" parent="." unique_id=1672721015 instance=ExtResource("29_qsaqs")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 432.78754, 970.1909, -78.675385)
+
+[node name="King of Spades" parent="." unique_id=1665153136 instance=ExtResource("30_xuh1l")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 432.78754, 1075.4225, -78.675385)
+
+[node name="Nine of Clubs" parent="." unique_id=155141217 instance=ExtResource("31_dt0uw")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 189.81866, 759.7278, -78.675385)
+
+[node name="Nine of Diamonds" parent="." unique_id=1688644563 instance=ExtResource("32_l7ug0")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 189.81866, 864.95935, -78.675385)
+
+[node name="Nine of Hearts" parent="." unique_id=467342093 instance=ExtResource("33_tslg1")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 189.81866, 970.1909, -78.675385)
+
+[node name="Nine of Spades" parent="." unique_id=810959846 instance=ExtResource("34_majb5")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 189.81866, 1075.4225, -78.675385)
+
+[node name="Queen of Clubs" parent="." unique_id=1550092081 instance=ExtResource("35_nx50j")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 372.0453, 759.7278, -78.675385)
+
+[node name="Queen of Diamonds" parent="." unique_id=451096430 instance=ExtResource("36_kbqco")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 372.0453, 864.95935, -78.675385)
+
+[node name="Queen of Hearts" parent="." unique_id=652933519 instance=ExtResource("37_0nifm")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 372.0453, 970.1909, -78.675385)
+
+[node name="Queen of Spades" parent="." unique_id=670848156 instance=ExtResource("38_vy4bj")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 372.0453, 1075.4225, -78.675385)
+
+[node name="Seven of Clubs" parent="." unique_id=84010303 instance=ExtResource("39_01otj")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 68.334236, 759.7278, -78.675385)
+
+[node name="Seven of Diamonds" parent="." unique_id=1299914617 instance=ExtResource("40_sk865")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 68.334236, 864.95935, -78.675385)
+
+[node name="Seven of Hearts" parent="." unique_id=1217497874 instance=ExtResource("41_r3bma")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 68.334236, 970.1909, -78.675385)
+
+[node name="Seven of Spades" parent="." unique_id=196593863 instance=ExtResource("42_3vw72")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 68.334236, 1075.4225, -78.675385)
+
+[node name="Six of Clubs" parent="." unique_id=1852120655 instance=ExtResource("43_0l4x3")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 7.592018, 759.7278, -78.675385)
+
+[node name="Six of Diamonds" parent="." unique_id=1700475193 instance=ExtResource("44_n1xjh")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 7.592018, 864.95935, -78.675385)
+
+[node name="Six of Hearts" parent="." unique_id=369576211 instance=ExtResource("45_4rk6i")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 7.592018, 970.1909, -78.675385)
+
+[node name="Ten of Clubs" parent="." unique_id=974072974 instance=ExtResource("46_c8atd")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 250.56085, 759.7278, -78.675385)
+
+[node name="Ten of Diamonds" parent="." unique_id=1813270150 instance=ExtResource("47_00mou")]
+transform = Transform3D(0.03048708, -0.0075201285, 0.0036594332, -0.007924474, -0.007464462, 0.017866692, -0.0056339, -0.030194864, -0.0053282133, -0.63246465, 19.534613, 23.03598)
+
+[node name="Ten of Hearts" parent="." unique_id=1235892011 instance=ExtResource("48_xi6jt")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 250.56085, 970.1909, -78.675385)
+
+[node name="Ten of Spades" parent="." unique_id=1847716987 instance=ExtResource("49_k5thm")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, 250.56085, 1075.4225, -78.675385)
+
+[node name="Three of Clubs" parent="." unique_id=1776296183 instance=ExtResource("50_j5wch")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -174.63464, 759.7278, -78.675385)
+
+[node name="Three of Diamonds" parent="." unique_id=1416314528 instance=ExtResource("51_mjijo")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -174.63464, 864.95935, -78.675385)
+
+[node name="Three of Hearts" parent="." unique_id=779222852 instance=ExtResource("52_t8xxx")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -174.63464, 968.6394, -78.675385)
+
+[node name="Three of Spades" parent="." unique_id=1641448500 instance=ExtResource("53_dng13")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -174.63464, 1075.4225, -78.675385)
+
+[node name="Two of Clubs" parent="." unique_id=1980344471 instance=ExtResource("54_6d0oa")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -235.37689, 759.7278, -78.675385)
+
+[node name="Two of Diamonds" parent="." unique_id=364250116 instance=ExtResource("55_hufh1")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -235.37689, 864.95935, -78.675385)
+
+[node name="Two of Hearts" parent="." unique_id=420686323 instance=ExtResource("56_ovgtk")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -235.37689, 970.1909, -78.675385)
+
+[node name="Two of Spades" parent="." unique_id=929165582 instance=ExtResource("57_spuov")]
+transform = Transform3D(0.032, -1.0285654e-22, -4.5863594e-16, -3.2311744e-30, 0.032, -2.5300029e-09, 7.7243957e-16, 4.2610577e-09, 0.019, -235.37689, 1075.4225, -78.675385)
+
+[node name="Six of Spades2" parent="." unique_id=775898057 instance=ExtResource("5_klxr8")]
+transform = Transform3D(0.0042487946, -0.023145268, -0.0025511354, -0.011668847, -0.0062596607, 0.010358957, -0.023974694, -0.0010551296, -0.005493973, 1.1223078, 20.028946, 14.041165)
