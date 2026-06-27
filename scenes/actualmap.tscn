@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://my14647cp32t" path="res://scenes/animated_sprite_3d.gd" id="3_84vxb"]
 [ext_resource type="PackedScene" uid="uid://cvmtgdksk7ac8" path="res://scenes/cards/map.tscn" id="3_pftmj"]
 [ext_resource type="PackedScene" uid="uid://dgd7mu21i3xkx" path="res://models/gltf/D6-Marble.gltf" id="4_imuwt"]
+[ext_resource type="PackedScene" uid="uid://c6vjkg54va77b" path="res://scenes/GUI.tscn" id="4_klxr8"]
 [ext_resource type="PackedScene" uid="uid://de6c5f5c4y8sq" path="res://assets/card deck in my ahhhhhh/six_of_spades.tscn" id="5_klxr8"]
 [ext_resource type="PackedScene" uid="uid://qqyemtkl8jmg" path="res://scenes/cards/Ace of Clubs.tscn" id="7_2v8qd"]
 [ext_resource type="PackedScene" uid="uid://c8puydcg04j6c" path="res://scenes/cards/Ace of Diamonds.tscn" id="8_knwb3"]
