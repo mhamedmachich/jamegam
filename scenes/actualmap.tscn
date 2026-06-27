@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://my14647cp32t" path="res://scenes/animated_sprite_3d.gd" id="3_84vxb"]
 [ext_resource type="PackedScene" uid="uid://cvmtgdksk7ac8" path="res://scenes/cards/map.tscn" id="3_pftmj"]
 [ext_resource type="PackedScene" uid="uid://dgd7mu21i3xkx" path="res://models/gltf/D6-Marble.gltf" id="4_imuwt"]
+[ext_resource type="PackedScene" uid="uid://c6vjkg54va77b" path="res://scenes/GUI.tscn" id="4_klxr8"]
 [ext_resource type="PackedScene" uid="uid://de6c5f5c4y8sq" path="res://assets/card deck in my ahhhhhh/six_of_spades.tscn" id="5_klxr8"]
 [ext_resource type="PackedScene" uid="uid://qqyemtkl8jmg" path="res://scenes/cards/Ace of Clubs.tscn" id="7_2v8qd"]
 [ext_resource type="PackedScene" uid="uid://c8puydcg04j6c" path="res://scenes/cards/Ace of Diamonds.tscn" id="8_knwb3"]
@@ -1413,7 +1414,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51.05451, 12.706401, -1.4155
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
 shadow_enabled = true
 
-[node name="cards" type="Node3D" parent="Map" unique_id=1310973291]
+[node name="Control" parent="Map" unique_id=1248361491 instance=ExtResource("4_klxr8")]
+
+[node name="Player3D" parent="." unique_id=1875688921 instance=ExtResource("2_7w8fq")]
+transform = Transform3D(-0.669529, 0, -0.7427859, 0, 1, 0, 0.7427859, 0, -0.669529, 2.2102504, 21.386782, 20.373177)
 
 [node name="Ace of Clubs" parent="Map/cards" unique_id=1733401655 instance=ExtResource("7_2v8qd")]
 transform = Transform3D(0.011661038, -0.029795881, -0.00028225826, 0.0039712135, 0.0010478692, 0.018842854, -0.029533878, -0.011623582, 0.0024222238, 0.9502287, 20.707819, 19.550781)

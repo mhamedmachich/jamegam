@@ -1,0 +1,69 @@
+[gd_scene format=3 uid="uid://c6vjkg54va77b"]
+
+[ext_resource type="Script" uid="uid://dvxk43ppqolrv" path="res://scenes/gui.gd" id="1_jbthi"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l0kvi"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ojjp1"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="Control" type="Control" unique_id=1248361491]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 617.0
+offset_right = -1370.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jbthi")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1478867072]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 460.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_l0kvi")
+
+[node name="Button" type="Button" parent="." unique_id=120217425]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 47.0
+offset_top = -144.0
+offset_right = 509.0
+offset_bottom = -54.0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_ojjp1")
+text = "PRESS TO SPIN WHEEL"
+
+[node name="Label" type="Label" parent="." unique_id=1794165944]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 90.0
+offset_right = 534.0
+offset_bottom = 183.0
+offset_transform_enabled = true
+theme_override_font_sizes/font_size = 45
+text = "spin the wheel!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="." unique_id=1133883576]
+wait_time = 2.0
+one_shot = true
+
+[node name="labeltime" type="Timer" parent="." unique_id=857736403]
+wait_time = 0.05
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="labeltime" to="." method="_on_label_timeout"]
