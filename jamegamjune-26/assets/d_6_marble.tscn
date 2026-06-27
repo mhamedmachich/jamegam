@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://cv44rp8v5o3md"]
-
-[ext_resource type="PackedScene" uid="uid://cef7lif61xm1a" path="res://assets/gameready_casino_scene/Eddex_DiceSet_V1/gltf/D6-Marble.gltf" id="1_vuk3r"]
-
-[node name="D6-Marble" unique_id=43442997 instance=ExtResource("1_vuk3r")]
