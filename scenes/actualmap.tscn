@@ -1414,6 +1414,8 @@ environment = SubResource("Environment_imuwt")
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
 shadow_enabled = true
 
+[node name="Control" parent="Map" unique_id=1248361491 instance=ExtResource("4_klxr8")]
+
 [node name="Player3D" parent="." unique_id=1875688921 instance=ExtResource("2_7w8fq")]
 transform = Transform3D(-0.669529, 0, -0.7427859, 0, 1, 0, 0.7427859, 0, -0.669529, 2.2102504, 21.386782, 20.373177)
 
